@@ -45,9 +45,9 @@ li > a{
 .opcoes-menu a{
 	color:rgb(253, 146, 0);
 	font-family: 'Hammersmith One', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 .imagem-slide {
@@ -100,19 +100,19 @@ a.button7{
 	text-align:center;
 }
 
-	@media all and (max-width:30em){
-		a.button6,
-		a.button7 {
-		display:block;
-		margin:0.4em auto;
- 		}
+@media all and (max-width:30em){
+	a.button6,
+	a.button7 {
+	display:block;
+	margin:0.4em auto;
 	}
+}
 
 h3 {
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: "Hammersmith One", sans-serif;
 	font-size: 2em;
-	font-weight: bold;
-	margin-bottom: 1em;
+	font-weight:bold;
+	margin-bottom:1em;
 	text-align: center;
 }
 
