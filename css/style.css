@@ -87,3 +87,30 @@ h3 {
 	text-align: center;
 }
 
+h3.contato {
+	color:rgb(253, 146, 0);
+	font-family: 'Hammersmith One', sans-serif;
+    padding-top: 0.5em;
+}
+
+footer{
+	background-color: rgb(34, 34, 34);
+}
+
+ul.contatos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	padding-bottom: 2em;
+}
+	
+i {
+	color:black;
+	font-size: 3.5em;
+	transition: text-shadow 1s;
+}
+
+i:hover,
+i:focus {
+	text-shadow: 0px 0px 4px whitesmoke;
+}
