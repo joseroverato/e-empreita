@@ -1,5 +1,6 @@
 body {
 	background-color: black;
+	scroll-behavior: smooth;
 }
 
 html, body {
@@ -53,31 +54,59 @@ li > a{
 	height: 35em;
 	object-fit: cover;
 }
+
 .link-container {
 	align-items: center;
 	display: flex;
+	flex-wrap: wrap;
+	height: 10em;
+	margin-top: 25em;
 	justify-content: space-around;
-}
-a.link-cadastro {
-	color: black;
-	font-family: 'Hammersmith One', sans-serif;
-	font-size: 4em;
-	font-weight: bold;
-	margin-bottom: 0.5em;
-    margin-top: 0.5em;
-	text-align: center;
-	text-decoration: none;
-}
-a.link-cadastro:hover {
-	text-shadow: 0px 0px 1px black;
 }
 
-.forms {
-	display: flex;
-	height: auto;
-	justify-content: space-around;
-	width: auto;
+a.button6{
+	background-color:rgb(253, 146, 0);
+	border-radius:0.15em;
+	box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+	box-sizing: border-box;
+	display:inline-block;
+	color:#FFFFFF;
+	font-family:'Roboto',sans-serif;
+	font-size: 3em;
+	font-weight:bold;
+	margin-bottom: 2em;
+	padding:0.7em 1.4em;
+	position:relative;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
 }
+
+a.button7{
+	background-color:rgb(85, 199, 136);
+	border-radius:0.15em;
+	box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+	box-sizing: border-box;
+	display:inline-block;
+	color:#FFFFFF;
+	font-family:'Roboto',sans-serif;
+	font-size: 2.5em;
+	font-weight:bold;
+	margin:0 0.3em 0.3em 0;
+	padding:0.7em 1.4em;
+	position:relative;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+	@media all and (max-width:30em){
+		a.button6,
+		a.button7 {
+		display:block;
+		margin:0.4em auto;
+ 		}
+	}
 
 h3 {
 	font-family: 'Hammersmith One', sans-serif;
@@ -95,6 +124,9 @@ h3.contato {
 
 footer{
 	background-color: rgb(34, 34, 34);
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 
 ul.contatos {
