@@ -4,22 +4,23 @@ body {
 }
 
 html, body {
-	width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 0px;
     overflow-x: hidden;
+    padding: 0px;
+	width: 100%;
 }
 
 .topnav {
 	align-items: center;
 	background-color: rgb(34, 34, 34);
 	display: flex;
-	height: 8em;
+	height: 5vh;
 	justify-content: space-between;
 	margin: 0px;
-	min-width: 100vw;
 
+	width: 100vw;
+	font-size: 100%;
 }
 body {
 	background-image: url("../img/cimento-queimado.jpg");
@@ -27,13 +28,14 @@ body {
 	background-size: cover;
 }
 .logo-top{
-    align-self: baseline;
-	width: 18em;
+	height: 100%;
 }
 
 .botoes-menu { 
+    align-items: center;
 	display: flex;
-	justify-content: flex-end;
+    height: 100%;
+    justify-content: flex-end;
 }
 
 li > a{
@@ -124,16 +126,17 @@ h3.contato {
 
 footer{
 	background-color: rgb(34, 34, 34);
-	bottom: 0;
+	bottom: 0px;
 	position: absolute;
 	width: 100%;
+	min-height: 10em;
 }
 
 ul.contatos {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-	padding-bottom: 2em;
+	align-items: center;
+	padding-bottom: 3em;
 }
 	
 i {
